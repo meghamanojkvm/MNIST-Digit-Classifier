@@ -5,6 +5,8 @@ from torchvision.transforms import ToTensor, Normalize, Compose
 from model import ImageClassifier  # Ensure model.py is in the same directory
 
 app = Flask(__name__)
+# Set the maximum file size to 16 MB
+app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16 MB limit
 
 # Load the model
 clf = ImageClassifier()
