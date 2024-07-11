@@ -98,6 +98,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Here are some screenshots of the application in action:
 
-![Opened-View](Readme-imgs/before.png)
-![After-Prediction](Readme-imgs/after.png)
+![Opened-View](Readme_img/before.png)
+![After-Prediction](Readme_img/after.png)
 
